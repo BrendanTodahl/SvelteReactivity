@@ -1,13 +1,19 @@
 <template>
   <div>
     <NuxtLink to="/">
-      VueLogo
+      Hi Vue!
     </NuxtLink>
     <NuxtLink to="/HelloWorld">
       Hello World
     </NuxtLink>
     <NuxtLink to="/ColorList1">
       Color List v1
+    </NuxtLink>
+    <NuxtLink to="/ColorList2">
+      Color list v2
+    </NuxtLink>
+    <NuxtLink to="/Components">
+      Components
     </NuxtLink>
     <hr />
   </div>

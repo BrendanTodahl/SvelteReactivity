@@ -1,6 +1,7 @@
 <template>
   <div>
-    todo: include some logo and welcome to vue
+    <img src="../assets/vue-logo.png" height="200px" width="200px" />
+    <h1 class="text-center">Vue.js</h1>
   </div>
 </template>
 
