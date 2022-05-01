@@ -4,22 +4,22 @@
     { done: false, text: 'Sleep' },
     { done: false, text: 'Learn Svelte' },
     { done: false, text: 'Repeat' }
-	];
+	]
 	
 	function toggleDone(t) {
 		todos = todos.map(todo => {
-			if (todo === t) return { done: !t.done, text: t.text };
-			return todo;
-		});
+			if (todo === t) return { done: !t.done, text: t.text }
+			return todo
+		})
 	}
 	
-	let hideDone = false;
+	let hideDone = false
 	
-	$: showing = filtered.length;
+	$: showing = filtered.length
 	
 	$: filtered = hideDone
 		? todos.filter(todo => !todo.done)
-		: todos;
+		: todos
 </script>
 
 <label>

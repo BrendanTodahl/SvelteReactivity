@@ -1,9 +1,9 @@
 <script>
-  let colors = ['red', 'blue', 'green'];
-  let selectedColor = '';
+  let colors = ['Red', 'Blue', 'Green']
+  let selectedColor = ''
   
   function setColor(color) {
-    selectedColor = color;
+    selectedColor = color
   }
 </script>
 
@@ -15,8 +15,8 @@
 <br/>
 {#if !selectedColor}
   <span>Pick a color!</span>
-{:else if selectedColor === 'red'}
+{:else if selectedColor === 'Red'}
   <span>That's my favorite color!</span>
 {:else}
-  <span>That's almost as cool as red!</span>
+  <span>That's almost as cool as Red!</span>
 {/if}

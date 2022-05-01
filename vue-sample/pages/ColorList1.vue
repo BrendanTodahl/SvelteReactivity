@@ -1,8 +1,8 @@
 <template>
   <div>
-    <button @click="setColor('red')">red</button>
-    <button @click="setColor('blue')">blue</button>
-    <button @click="setColor('green')">green</button>
+    <button @click="setColor('Red')">Red</button>
+    <button @click="setColor('Blue')">Blue</button>
+    <button @click="setColor('Green')">Green</button>
     <span>Color is: <strong>{{ selectedColor }}</strong></span>
   </div>
 </template>

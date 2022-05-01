@@ -1,5 +1,5 @@
 <script>
-	import { page } from '$app/stores';
+	import { page } from '$app/stores'
 </script>
 
 <header>
@@ -48,7 +48,6 @@
 		justify-content: center;
 		align-items: center;
 		list-style: none;
-		background: var(--background);
 		background-size: contain;
 	}
 

@@ -1,6 +1,6 @@
 <script>
-  $: name = 'World';
-  let count = 0;
+  $: name = 'World'
+  let count = 0
 </script>
 
 <h1>Hello {name}!</h1>

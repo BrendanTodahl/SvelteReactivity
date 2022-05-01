@@ -1,5 +1,5 @@
 <script>
-	export let number = 0;
+	export let number = 0
 </script>
 
 <p>This paragraph is not purple.</p>

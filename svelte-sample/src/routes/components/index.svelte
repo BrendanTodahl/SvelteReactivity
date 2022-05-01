@@ -1,5 +1,5 @@
 <script>
-	import ChildComponent from './childComponent.svelte';
+	import ChildComponent from './childComponent.svelte'
 </script>
 
 <p>This paragraph is purple!</p>
