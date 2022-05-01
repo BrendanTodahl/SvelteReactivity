@@ -5,41 +5,33 @@
 
 <Header />
 
-<main>
-	<slot />
-</main>
-
-<footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-</footer>
+<div class="container">
+	<div class="card">
+		<div class="card-body">
+			<div>
+				<slot />
+			</div>
+		</div>
+	</div>
+</div>
 
 <style>
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 1024px;
-		margin: 0 auto;
-		box-sizing: border-box;
+	.container {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		height: 50%;
 	}
 
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
+	.card {
+		height: -webkit-fill-available;
+		box-shadow: 7px 4px 10px grey;
 		align-items: center;
-		padding: 40px;
 	}
 
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 40px 0;
-		}
+	.card-body {
+		display: flex;
+		align-items: center;
 	}
 </style>

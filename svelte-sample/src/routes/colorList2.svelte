@@ -10,7 +10,7 @@
 {#each colors as color}
   <button on:click="{() => setColor(color)}">{color}</button>
 {/each}
-<span>Color is: {selectedColor}</span>
+<span>Color is: <strong>{selectedColor}</strong></span>
 
 <br/>
 {#if !selectedColor}

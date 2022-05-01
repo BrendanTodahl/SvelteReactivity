@@ -1,7 +1,7 @@
 <template>
   <div>
     <button v-for="color in colors" :key="color" @click="setColor(color)">{{ color }}</button>
-    <span>Color is: {{ selectedColor }}</span>
+    <span>Color is: <strong>{{ selectedColor }}</strong></span>
 
     <span class="d-block mt-2" v-if="!selectedColor">Pick a color!</span>
     <span class="d-block mt-2" v-else-if="selectedColor === 'red'">That's my favorite color!</span>

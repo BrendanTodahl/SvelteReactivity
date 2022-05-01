@@ -3,7 +3,7 @@
     <button @click="setColor('red')">red</button>
     <button @click="setColor('blue')">blue</button>
     <button @click="setColor('green')">green</button>
-    <span>Color is: {{ selectedColor }}</span>
+    <span>Color is: <strong>{{ selectedColor }}</strong></span>
   </div>
 </template>
 
