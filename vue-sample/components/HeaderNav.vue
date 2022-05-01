@@ -23,6 +23,11 @@
           </NuxtLink>
         </li>
         <li>
+          <NuxtLink to="/TodoList">
+            Todo List
+          </NuxtLink>
+        </li>
+        <li>
           <NuxtLink to="/Components">
             Components
           </NuxtLink>
