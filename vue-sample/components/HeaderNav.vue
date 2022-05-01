@@ -13,6 +13,11 @@
           </NuxtLink>
         </li>
         <li>
+          <NuxtLink to="/TodoList">
+            Todo List
+          </NuxtLink>
+        </li>
+        <li>
           <NuxtLink to="/ColorList1">
             Color List v1
           </NuxtLink>
@@ -20,11 +25,6 @@
         <li>
           <NuxtLink to="/ColorList2">
             Color list v2
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="/TodoList">
-            Todo List
           </NuxtLink>
         </li>
         <li>

@@ -6,5 +6,5 @@ export default function App() {
       <p class="purple">This paragraph is purple!</p>
       <ChildComponent number="100" />
     </div>
-  );
+  )
 }

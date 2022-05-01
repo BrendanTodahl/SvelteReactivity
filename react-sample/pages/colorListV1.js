@@ -14,5 +14,5 @@ export default function App() {
       <button onClick={() => handleClick('Green')}>Green</button>
       <span>Color is: <strong>{color}</strong></span>
     </div>
-  );
+  )
 }

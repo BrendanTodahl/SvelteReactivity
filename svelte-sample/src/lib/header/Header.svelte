@@ -11,17 +11,23 @@
 			<li class:active={$page.url.pathname === '/helloWorld'}>
 				<a sveltekit:prefetch href="/helloWorld">Hello World</a>
 			</li>
+			<li class:active={$page.url.pathname === '/todoList'}>
+				<a sveltekit:prefetch href="/todoList">Todo List</a>
+			</li>
 			<li class:active={$page.url.pathname === '/colorList1'}>
 				<a sveltekit:prefetch href="/colorList1">Color List V1</a>
 			</li>
 			<li class:active={$page.url.pathname === '/colorList2'}>
 				<a sveltekit:prefetch href="/colorList2">Color List V2</a>
 			</li>
-			<li class:active={$page.url.pathname === '/todoList'}>
-				<a sveltekit:prefetch href="/todoList">Todo List</a>
-			</li>
 			<li class:active={$page.url.pathname === '/components'}>
 				<a sveltekit:prefetch href="/components">Components</a>
+			</li>
+			<li class:active={$page.url.pathname === '/dataStores'}>
+				<a sveltekit:prefetch href="/dataStores">Data Stores</a>
+			</li>
+			<li class:active={$page.url.pathname === '/customDataStores'}>
+				<a sveltekit:prefetch href="/customDataStores">Custom Data Stores</a>
 			</li>
 		</ul>
 	</nav>

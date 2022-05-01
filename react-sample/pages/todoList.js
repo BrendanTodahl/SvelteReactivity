@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useMemo } from 'react'
 
 export default function TodoList() {
   const [todos, setTodos] = useState([
@@ -21,9 +21,12 @@ export default function TodoList() {
     setHideDone(!hideDone)
   }
 
-  const filtered = hideDone
-    ? todos.filter(todo => !todo.done)
-    : todos
+  const filtered = useMemo(
+    () => hideDone
+      ? todos.filter(todo => !todo.done)
+      : todos,
+    [todos, hideDone]
+  )
 
   return (
     <div>
@@ -40,5 +43,5 @@ export default function TodoList() {
         ))}
       </ul>
     </div>
-  );
+  )
 }

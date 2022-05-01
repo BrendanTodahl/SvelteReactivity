@@ -18,5 +18,5 @@ export default function App() {
       <input type="text" value={name} onInput={nameChange} />
       <button onClick={incrementCount}>Clicks: {count}</button>
     </div>
-  );
+  )
 }
