@@ -18,7 +18,7 @@
 
 <!-- Version 2 -->
 <!-- <script>
-  $: name = 'World'
+  let name = 'World'
   let count = 0
 </script>
 
