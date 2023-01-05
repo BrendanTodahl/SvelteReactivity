@@ -8,27 +8,27 @@
           </NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/helloWorld">
+          <NuxtLink to="/HelloWorld">
             Hello World
           </NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/todoList">
+          <NuxtLink to="/TodoList">
             Todo List
           </NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/colorList1">
+          <NuxtLink to="/ColorList1">
             Color List v1
           </NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/colorList2">
+          <NuxtLink to="/ColorList2">
             Color list v2
           </NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/components">
+          <NuxtLink to="/Components">
             Components
           </NuxtLink>
         </li>
@@ -87,7 +87,7 @@ export default {
     height: 100%;
   }
 
-  li a.router-link-exact-active::before {
+  li a.nuxt-link-exact-active::before {
     --size: 6px;
     content: '';
     width: 0;
