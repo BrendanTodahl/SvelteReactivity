@@ -1,6 +1,7 @@
 /* eslint-disable import/first */
-import Vue from 'vue'
-import BootstrapVue from 'bootstrap-vue'
-Vue.use(BootstrapVue)
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
+import BootstrapVue3 from 'bootstrap-vue-3'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+export default defineNuxtPlugin(nuxtApp => {
+    nuxtApp.vueApp.use(BootstrapVue3)
+})

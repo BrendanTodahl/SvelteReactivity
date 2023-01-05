@@ -4,7 +4,7 @@
     <div class="container">
       <div class="card">
         <div class="card-body">
-          <Nuxt />
+          <slot />
         </div>
       </div>
     </div>
