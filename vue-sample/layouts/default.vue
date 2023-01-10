@@ -1,6 +1,6 @@
 <template>
   <div>
-    <HeaderNav></HeaderNav>
+    <header-nav></header-nav>
     <div class="container">
       <div class="card">
         <div class="card-body">
@@ -12,8 +12,11 @@
 </template>
 
 <script>
+import HeaderNav from '../components/headerNav.vue'
+
 export default {
-  name: 'Default'
+  name: 'Default',
+  components: { HeaderNav }
 }
 </script>
 

@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import ChildComponent from '../components/ChildComponent.vue'
+import ChildComponent from '../components/childComponent.vue'
 
 export default {
   name: 'Component',
