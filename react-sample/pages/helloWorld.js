@@ -1,15 +1,15 @@
 import React, { useState } from 'react'
 
 export default function App() {
-  const [count, setCount] = useState(0)
   const [name, setName] = useState('World')
-
-  function incrementCount() {
-    setCount(count + 1)
-  }
+  const [count, setCount] = useState(0)
 
   function nameChange(event) {
     setName(event.target.value)
+  }
+
+  function incrementCount() {
+    setCount(count + 1)
   }
 
   return (

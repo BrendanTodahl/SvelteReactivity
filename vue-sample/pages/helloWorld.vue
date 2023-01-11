@@ -2,7 +2,7 @@
   <div>
     <h1>Hello {{ name }}!</h1>
     <input type="text" v-model="name" />
-    <button @click="incrementCount">Clicks: {{ numClicks }}</button>
+    <button @click="incrementCount">Clicks: {{ count }}</button>
   </div>
 </template>
 
@@ -11,13 +11,13 @@ export default {
   name: 'HelloWorld',
   methods: {
     incrementCount () {
-      this.numClicks++
+      this.count++
     }
   },
   data () {
     return {
       name: 'World',
-      numClicks: 0
+      count: 0
     }
   }
 }

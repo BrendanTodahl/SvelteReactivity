@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 export default function App() {
-  const [color, setColor] = useState('')
+  const [selectedColor, setColor] = useState('')
 
   function handleClick(color) {
     setColor(color)
@@ -12,7 +12,7 @@ export default function App() {
       <button onClick={() => handleClick('Red')}>Red</button>
       <button onClick={() => handleClick('Blue')}>Blue</button>
       <button onClick={() => handleClick('Green')}>Green</button>
-      <span>Color is: <strong>{color}</strong></span>
+      <span>Color is: <strong>{selectedColor}</strong></span>
     </div>
   )
 }
