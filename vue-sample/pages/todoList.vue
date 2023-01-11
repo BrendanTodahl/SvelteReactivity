@@ -5,7 +5,7 @@
       Hide Done
     </label>
 
-    <span>Showing {{ showing }} of {{ todos.length }}</span>
+    <span> - Showing {{ showing }} of {{ todos.length }}</span>
 
     <ul>
       <li v-for="todo in filtered" :key="todo.text" @click="toggleDone(todo)">
